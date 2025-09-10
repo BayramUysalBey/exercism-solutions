@@ -1,7 +1,6 @@
 """Your friend Chandler plans to visit exotic countries all around the world. Sadly, Chandler's math skills aren't good. He's pretty worried about being scammed by currency exchanges during his trip - and he wants you to make a currency calculator for him. Here are his specifications for the app:
 
 Task 1
-
 Create the exchange_money() function, taking 2 parameters:
 
 budget : The amount of money you are planning to exchange.
@@ -14,7 +13,6 @@ Note: If your currency is USD and you want to exchange USD for EUR with an excha
 106.25
 
 Task 2
-
 Create the get_change() function, taking 2 parameters:
 
 budget : Amount of money before exchange.
@@ -25,7 +23,6 @@ This function should return the amount of money that is left from the budget.
 7.5
 
 Task 3
-
 Create the get_value_of_bills() function, taking 2 parameters:
 
 denomination : The value of a single bill.
@@ -36,7 +33,6 @@ This exchanging booth only deals in cash of certain increments. The total you re
 640
 
 Task 4
-
 Create the get_number_of_bills() function, taking amount and denomination.
 
 This function should return the number of currency bills that you can receive within the given amount. In other words: How many whole bills of currency fit into the starting amount? Remember -- you can only receive whole bills, not fractions of bills, so remember to divide accordingly. Effectively, you are rounding down to the nearest whole bill/denomination.
@@ -45,7 +41,6 @@ This function should return the number of currency bills that you can receive wi
 25
 
 Task 5
-
 Create the get_leftover_of_bills() function, taking amount and denomination.
 
 This function should return the leftover amount that cannot be returned from your starting amount given the denomination of bills. It is very important to know exactly how much the booth gets to keep.
@@ -54,7 +49,6 @@ This function should return the leftover amount that cannot be returned from you
 7.5
 
 Task 6
-
 Create the exchangeable_value() function, taking budget, exchange_rate, spread, and denomination.
 
 Parameter spread is the percentage taken as an exchange fee, written as an integer. It needs to be converted to decimal by dividing it by 100. If 1.00 EUR == 1.20 USD and the spread is 10, the actual exchange rate will be: 1.00 EUR == 1.32 USD because 10% of 1.20 is 0.12, and this additional fee is added to the exchange.

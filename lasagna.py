@@ -7,21 +7,18 @@ Note
 We have started the first function definition for you in the stub file, but you will need to write the remaining function definitions yourself. You will also need to define any constants yourself. Read the #TODO comment lines in the stub file carefully. Once you are done with a task, remove the TODO comment.
 
 Task 1
-
 Define the EXPECTED_BAKE_TIME constant that represents how many minutes the lasagna should bake in the oven. According to your cookbook, the Lasagna should be in the oven for 40 minutes:
 
 >>> print(EXPECTED_BAKE_TIME)
 40
 
 Task 2
-
 Complete the bake_time_remaining() function that takes the actual minutes the lasagna has been in the oven as an argument and returns how many minutes the lasagna still needs to bake based on the EXPECTED_BAKE_TIME constant.
 
 >>> bake_time_remaining(30)
 10
 
 Task 3
-
 Define the preparation_time_in_minutes() function that takes the number_of_layers you want to add to the lasagna as an argument and returns how many minutes you would spend making them. Assume each layer takes 2 minutes to prepare.
 
 >>> def preparation_time_in_minutes(number_of_layers):
@@ -32,7 +29,6 @@ Define the preparation_time_in_minutes() function that takes the number_of_layer
 4
 
 Task 4
-
 Define the elapsed_time_in_minutes() function that takes two parameters as arguments:
 
 number_of_layers (the number of layers added to the lasagna)
@@ -47,7 +43,6 @@ This function should return the total minutes you have been in the kitchen cooki
 26
 
 Task 5
-
 Go back through the recipe, adding "notes" in the form of function docstrings.
 
 def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
